@@ -1,0 +1,2 @@
+class PermutationsController < ApplicationController
+end
