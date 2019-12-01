@@ -3,5 +3,5 @@ sorted = adludio_array.permutation.to_a.sort
 unique_sorted = sorted.uniq
 
 unique_sorted.each do | permutation |
-  Permutation.create(name: permutation.join(" "))
+  Permutation.create(name: permutation.join(""))
 end
